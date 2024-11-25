@@ -1,0 +1,19 @@
+.menu {
+    border-radius: 1em 7em 1em 1em;
+}
+
+.btn__doc {
+    padding: .780em 1em;
+}
+
+button {
+    padding: .780em;
+}
+
+.btn__doc img {
+    height: 1.3em;
+}
+
+button img {
+    height: 1.1em;
+}

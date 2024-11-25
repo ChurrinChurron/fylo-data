@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  place-items: center;
+  font-family: "Raleway", sans-serif !important;
+  background: url(./assets/bg-mobile.webp) no-repeat;
+  background-size: cover;
+  min-height: 100dvh;
+  max-width: 65em;
+  margin: 0 auto !important;
+}
+
+@media screen and (width >= 768px) {
+  body {
+    background: url(./assets/bg-desktop.webp) no-repeat bottom, hsl(229, 57%, 11%) !important;
+    background-size: 100vw 50vh !important;
+  }
+}

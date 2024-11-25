@@ -1,0 +1,11 @@
+$primary: hsl(243, 100%, 93%);
+$secondary: hsl(229, 7%, 55%);
+$info: hsl(228, 56%, 26%);
+$success: hsl(229, 57%, 11%);
+// gradient colors
+$warning: hsl(6, 100%, 80%);
+$danger: hsl(335, 100%, 65%);
+
+$gradient: linear-gradient(to right, $warning, $danger);
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
